@@ -333,8 +333,11 @@ a:hover {
 }
 
 .nav > li a:hover,
-.nav > li a:focus {
+.nav > li a:focus,
+.nav > li a:active {
     background: transparent;
+    font-weight: 1000;
+
 }
 
 .navbar-toggle {
@@ -371,8 +374,10 @@ a:hover {
         -webkit-transform: translateY(-50%);
     }
     .nav > li .dropdown-menu a,
-    .nav > li .dropdown-menu a:hover {
+    .nav > li .dropdown-menu a:hover,
+    .nav > li .dropdown-menu a:active {
         color: #484848;
+        font-weight: 1000;
     }
     .nav-invert .site-navigation {
         left: 0;
