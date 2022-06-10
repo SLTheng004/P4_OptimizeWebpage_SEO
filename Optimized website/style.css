@@ -968,6 +968,11 @@ h4 {
         padding-left: 10px!important;
         padding-right: 10px!important;
     }
+
+    .col-sm-12 h1 {
+        font-size: 28px;
+    }
+
     .b-parallax {
         background-attachment: scroll;
     }
