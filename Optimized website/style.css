@@ -543,6 +543,21 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    display: block;
+    width: 45%;
+    height: 20px;
+    padding: 10px 15px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group {
+    padding: 5px;
 }
 
 .scrollToTop {
@@ -712,12 +727,18 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+}
+
+
+.tight-width-white-space {
+    max-width: 600px;
+    line-height: 30px;
 }
 
 .h1 {
@@ -816,7 +837,7 @@ h4 {
 }
 
 .tc-white {
-    color: #e3e3e3!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
@@ -838,7 +859,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #B75729!important;
 }
 
 .ltc-atomic-tangerine:hover {
